@@ -1,0 +1,14 @@
+{
+  "name": "clawd-on-desk-omp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clawd on Desk custom-application bridge for OMP (oh-my-pi) sessions",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "install-extension": "sh scripts/install.sh",
+    "agent-id": "node scripts/agent-id.mjs",
+    "selftest": "bun scripts/selftest.ts",
+    "typecheck": "sh scripts/typecheck.sh"
+  }
+}

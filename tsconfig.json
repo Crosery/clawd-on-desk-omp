@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "lib": ["ES2024"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["node"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@oh-my-pi/pi-coding-agent": ["./node_modules/@oh-my-pi/pi-coding-agent/dist/types/index.d.ts"]
+    }
+  },
+  "include": ["clawd-on-desk-omp.ts", "scripts/selftest.ts"]
+}
